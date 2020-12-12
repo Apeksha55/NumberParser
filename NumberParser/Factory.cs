@@ -21,7 +21,10 @@ namespace NumberParser
                        return new JSONGenerator();
                 
                     default:
-                        return null;
+                    Console.WriteLine("Please provide input in below format: ");
+                    Console.WriteLine(" Extension:xml or json or txt");
+                    Console.ReadLine();
+                    return null;
                 }
             }
         

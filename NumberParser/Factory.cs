@@ -22,7 +22,7 @@ namespace NumberParser
                 
                     default:
                     Console.WriteLine("Please provide input in below format: ");
-                    Console.WriteLine(" Extension:xml or json or txt");
+                    Console.WriteLine("Extension:xml or json or txt");
                     Console.ReadLine();
                     return null;
                 }

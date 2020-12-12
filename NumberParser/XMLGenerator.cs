@@ -9,10 +9,10 @@ namespace NumberParser
 {
     public class XMLGenerator : IFileGenerator
     {
-        public int[] integerArray;
+       
         public XMLGenerator()
         {
-           // integerArray = input;
+          
 
         }
         public void generate(int[] input)

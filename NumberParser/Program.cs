@@ -23,12 +23,14 @@ namespace NumberParser
                 Array.Reverse(nums);
                 IFileGenerator gen = Factory.GetFileInstance(extension);
                 gen.generate(nums);
+                Console.WriteLine("File has been generated in bin/debug.");
+                Console.ReadLine();
             }
             catch(Exception e)
             {
                 Console.WriteLine("Please provide input in below format: ");
                 Console.WriteLine("Enter Integers:1,2,3");
-                Console.WriteLine(" Extension:xml or json or txt");
+                Console.WriteLine("Extension:xml or json or txt");
                 Console.ReadLine();
             }
           
